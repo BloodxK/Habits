@@ -6,8 +6,8 @@ button.addEventListener("click", add)
 form.addEventListener("change", save)
 
 function add() {
-    const today = new Date().toLocaleDateString('pt-br').slice(0, -5)   // Transforma a data em string, formato pt-br e remove os últimos 5 caracteres
-    // const today = "24/01"
+    // const today = new Date().toLocaleDateString('pt-br').slice(0, -5)   // Transforma a data em string, formato pt-br e remove os últimos 5 caracteres
+    const today = "16/01"
     const dayExists = nlwSetup.dayExists(today)
 
     if(dayExists) {
